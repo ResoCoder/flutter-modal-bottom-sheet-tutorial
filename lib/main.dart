@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
         context: context,
         builder: (context) {
           return Container(
-            color: Color(0xFF737373),
+            color: Colors.grey[600],
             height: 180,
             child: Container(
               child: _buildBottomNavigationMenu(),
